@@ -1,0 +1,126 @@
+/* RESET */
+a, abbr, acronym, address, applet, article, aside, audio, 
+b, big, blockquote, body, caption, canvas, center, cite, code,
+dd, del, details, dfn, dialog, div, dl, dt, em, embed, 
+fieldset, figcaption, figure, form, footer, 
+header, hgroup, h1, h2, h3, h4, h5, h6, html, 
+i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,
+object, ol, output, p, pre, q, ruby, 
+s, samp, section, main, small, span, strike, strong, sub, summary, sup, 
+tt, table, tbody, textarea, tfoot, thead, time, tr, th, td,
+u, ul, var, video { 
+	font-family: inherit; 
+	font-size: 100%; 
+	font-weight: inherit; 
+	font-style: inherit; 
+	vertical-align: baseline; 
+	white-space: normal;
+	text-align: left; 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: 0;
+	background: transparent; 
+}
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, main {display: block;}								  
+ol, ul {list-style: none;}
+blockquote, q{quotes: none;}
+table { border-collapse: collapse;border-spacing: 0;}
+
+* { 
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	         *behavior: url(/js/boxsizing.htc); 
+}
+.clearfix:after {clear: both;content: ".";display: block;height: 0; visibility: hidden;}
+html[xmlns] .clearfix {display: block;}
+
+/*===============================================
+	
+	-webkit-border-radius: 5px;	
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+			
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+	   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+		    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+			
+	background:#fff;
+	background: -moz-linear-gradient(bottom, #ccc, #fff );
+	background: -webkit-gradient(linear, left bottom, left top, from(#ccc), to(#fff)); 
+	background: -o-linear-gradient(bottom, #ccc, #fff); 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#fff, endColorstr=#ccc);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#fff, endColorstr=#ccc"); 
+					
+================================================*/
+
+/*-------------------------------------------------*/
+
+html, body{
+	height:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:130%;
+}
+body{
+	min-width:980px;
+	height:100%;
+}
+#wrapper{		
+}
+.main{
+	width:980px;
+	margin: auto;
+	position: relative;
+	z-index:10px;	
+}
+/*----- Typ. -----*/
+[class^="icon-"], [class*=" icon-"] {
+	background: url("../images/sprite.png") no-repeat 100% 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+textarea{	}
+
+input[type="submit"], input[type="button"], a.button{}
+
+h1, h2, h3, h4, h5{}
+
+a{ color:#06b2ce; text-decoration: underline;}
+a:hover{color:#e0735e;}
+
+/*--------------*/
+/*--- header ---*/
+/*--------------*/
+#header{}
+
+.logo{
+	display: block;
+	width: 200px;
+	height: 100px;
+}
+/*---------------*/
+/*-- containet --*/
+/*---------------*/
+#container{}
+
+.content{}
+.sidebar{}
+
+
+/*--------------*/
+/*--- footer ---*/
+/*--------------*/
+#footer{}
+.copyright{}
+.copyright a{}
+.develop{}
+.develop a{}
+
+
+/*----------------------------------*/
+
