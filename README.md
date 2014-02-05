@@ -1,6 +1,6 @@
-template_css
+Template
 ============
 
-Template css style
+Template Blank style
 
-$ git init
+
