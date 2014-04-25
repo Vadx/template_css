@@ -1,17 +1,29 @@
+@media only screen and (max-width: 1024px) {}
 
-/* Laptop/Tablet (1024px) */
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
-}
-
-/* Tablet Portrait (768px) */
-@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
-}
+/*- 320px -*/
+@media only screen and (max-width: 480px){}
 
 /* Phone Landscape (480px) */
-@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
-}
+@media only screen and (min-width: 480px) and (max-width: 600px){}
 
-/* Phone Portrait (320px) */
-@media only screen and (max-width: 320px) {
-}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){}
+
+@media only screen and (min-width: 768px) and (max-width: 800px){}
+
+@media only screen and (min-width: 768px) and (max-width: 980px){}
+
+@media only screen and (min-width: 980px) and (max-width: 1024px){}
+
+@media only screen and (min-width:1024px) and (max-width: 1160px){}
+
+
+/* (1024px) */
+@media only screen and (min-width: 1024px) and (max-width: 1160px){}
+
+
+
+
+
+
 
