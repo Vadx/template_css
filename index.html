@@ -18,7 +18,11 @@
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="js/jquery.fancybox.js"></script>
 
+<script type="text/javascript" src="js/jquery.vadxNav.js"></script>
+
 <script type="text/javascript" src="js/easyResponsiveTabs.js"></script>
+
+
 <script type="text/javascript" src="js/main.js"></script>
 
 <!--[if IE]>
@@ -32,11 +36,26 @@
 	<header  role="banner" id="header">
 		<div class="main clearfix">
 	    	<a href="" class="logo">LogoSite.com</a>
-			<nav class="mainnav clearfix" role="navigation">
-				<ul>
-					<li><a href="/">Главная</a></li>
-					<li><a href="/news">Новости</a></li>
-					<li><a class="fancybox" href="images/1_b.jpg">Контакты</a></li>					
+			<nav class="mainnav clearfix" role="navigation" data-breakpoint="960">
+				<div class="menu-button">Menu</div>
+				<ul class="vadx-nav">
+					<li><a href="/">Home</a></li>
+					<li>
+						<a href="/">About</a>
+						<ul>
+							<li><a href="">Item 1</a></li>
+							<li><a href="">Item 2</a></li>
+							<li><a href="">Item 3</a></li>
+							<li><a href="">Item 4</a></li>
+							<li><a href="">Item 5</a></li>
+							<li><a href="">Item 6</a></li>
+							<li><a href="">Item 7</a></li>
+						</ul>
+					</li>
+					<li><a href="/">News</a></li>
+					<li><a href="/">Service</a></li>
+					<li><a href="/">Blog</a></li>
+					<li><a class="fancybox" href="images/1_b.jpg">Contacts</a></li>					
 				</ul>
 			</nav>
 		</div><!--/main-->
@@ -44,7 +63,50 @@
 	
 	<main role="main" id="container">
 		<div class="main clearfix">
-			<article class="content">Content</article><!--/content-->					
+			<article class="content">
+				<h1>Heading H1</h1>
+				
+				<div class="row">
+	            	<div class="col-3 col">
+						<h4>Heading H4</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries...</p>
+					</div>
+					
+	                <div class="col-3 col">
+						<h4>Heading H4</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries...</p>
+					</div>
+					
+					<div class="col-3 col">
+						<h4>Heading H4</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries...</p>
+					</div>
+					
+					<div class="col-3 col">
+						<h4>Heading H4</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries...</p>
+					</div>
+	            </div>
+				
+				<div class="row">
+	            	<div class="col-4 col">
+						<h4>Heading H3</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries...</p>
+					</div>
+					
+	                <div class="col-4 col">
+						<h4>Heading H3</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries...</p>
+					</div>
+					
+					<div class="col-4 col">
+						<h4>Heading H3</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries...</p>
+					</div>					
+					
+	            </div>
+				
+			</article><!--/content-->					
 		</div><!--/main-->
 	</main>
     

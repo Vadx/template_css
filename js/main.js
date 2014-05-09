@@ -2,6 +2,9 @@ jQuery(document).ready(function($) {
 	// Fancybox
 	$('.fancybox').fancybox();
 	
+	//Menu
+	$(".vadx-nav").vadxNav(); 
+	
 	//Tabs
 	$('#horizontalTab').easyResponsiveTabs({
             type: 'default', //Types: default, vertical, accordion           
@@ -21,6 +24,8 @@ jQuery(document).ready(function($) {
             width: 'auto',
             fit: true
      });
+	 
+	
 	
 });
 

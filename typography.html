@@ -19,6 +19,8 @@
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="js/jquery.fancybox.js"></script>
 
+<script type="text/javascript" src="js/jquery.vadxNav.js"></script>
+
 <script type="text/javascript" src="js/easyResponsiveTabs.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
@@ -33,11 +35,26 @@
 	<header  role="banner" id="header">
 		<div class="main clearfix">
 	    	<a href="" class="logo">LogoSite.com</a>
-			<nav class="mainnav clearfix" role="navigation">
-				<ul>
-					<li><a href="/">Главная</a></li>
-					<li><a href="/news">Новости</a></li>
-					<li><a class="fancybox" href="images/1_b.jpg">Контакты</a></li>					
+			<nav class="mainnav clearfix" role="navigation" data-breakpoint="800">
+				<div class="menu-button">Menu</div>
+				<ul class="vadx-nav">
+					<li><a href="/">Home</a></li>
+					<li>
+						<a href="/">About</a>
+						<ul>
+							<li><a href="">Item 1</a></li>
+							<li><a href="">Item 2</a></li>
+							<li><a href="">Item 3</a></li>
+							<li><a href="">Item 4</a></li>
+							<li><a href="">Item 5</a></li>
+							<li><a href="">Item 6</a></li>
+							<li><a href="">Item 7</a></li>
+						</ul>
+					</li>
+					<li><a href="/">News</a></li>
+					<li><a href="/">Service</a></li>
+					<li><a href="/">Blog</a></li>
+					<li><a class="fancybox" href="images/1_b.jpg">Contacts</a></li>					
 				</ul>
 			</nav>
 		</div><!--/main-->
